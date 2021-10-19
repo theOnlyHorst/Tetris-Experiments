@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b267ffcb54b1574291164136792f909, type: 3}
+  m_Name: Tetrimino Properties
+  m_EditorClassIdentifier: 
+  propList:
+  - name: I
+    tetrimino: 0
+    tetriminoProperties:
+      color: {r: 0.23584905, g: 0.9433962, b: 0.9433962, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: -0.375, y: 0}
+      rotations:
+      - name: 0G
+        offsetM1X: -1
+        offsetM1Y: 0
+        offsetM2X: 1
+        offsetM2Y: 0
+        offsetM3X: 2
+        offsetM3Y: 0
+      - name: R90G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: 0
+        offsetM2Y: -1
+        offsetM3X: 0
+        offsetM3Y: -2
+      - name: R180G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: -1
+        offsetM2Y: 0
+        offsetM3X: -2
+        offsetM3Y: 0
+      - name: L90G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: 0
+        offsetM2Y: 1
+        offsetM3X: 0
+        offsetM3Y: 2
+  - name: O
+    tetrimino: 1
+    tetriminoProperties:
+      color: {r: 1, g: 0.9929802, b: 0.1745283, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: -0.375, y: -0.375}
+      rotations:
+      - name: 0G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: 0
+        offsetM2Y: 1
+        offsetM3X: 1
+        offsetM3Y: 1
+      - name: R90G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: 1
+        offsetM2Y: 0
+        offsetM3X: 1
+        offsetM3Y: -1
+      - name: R180G
+        offsetM1X: -1
+        offsetM1Y: 0
+        offsetM2X: 0
+        offsetM2Y: -1
+        offsetM3X: -1
+        offsetM3Y: -1
+      - name: L90G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: -1
+        offsetM2Y: 0
+        offsetM3X: -1
+        offsetM3Y: 1
+  - name: S
+    tetrimino: 2
+    tetriminoProperties:
+      color: {r: 0.45120573, g: 0.8867924, b: 0.16313636, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: 0, y: -0.375}
+      rotations:
+      - name: 0G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: 1
+        offsetM2Y: 1
+        offsetM3X: -1
+        offsetM3Y: 0
+      - name: R90G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: 1
+        offsetM2Y: -1
+        offsetM3X: 0
+        offsetM3Y: 1
+      - name: R180G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: -1
+        offsetM2Y: -1
+        offsetM3X: 1
+        offsetM3Y: 0
+      - name: L90G
+        offsetM1X: -1
+        offsetM1Y: 0
+        offsetM2X: -1
+        offsetM2Y: 1
+        offsetM3X: 0
+        offsetM3Y: -1
+  - name: Z
+    tetrimino: 3
+    tetriminoProperties:
+      color: {r: 0.9245283, g: 0.13519046, b: 0.13519046, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: 0, y: -0.375}
+      rotations:
+      - name: 0G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: -1
+        offsetM2Y: 1
+        offsetM3X: 1
+        offsetM3Y: 0
+      - name: R90G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: 1
+        offsetM2Y: 1
+        offsetM3X: 0
+        offsetM3Y: -1
+      - name: R180G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: 1
+        offsetM2Y: -1
+        offsetM3X: -1
+        offsetM3Y: 0
+      - name: L90G
+        offsetM1X: -1
+        offsetM1Y: 0
+        offsetM2X: -1
+        offsetM2Y: -1
+        offsetM3X: 0
+        offsetM3Y: 1
+  - name: J
+    tetrimino: 4
+    tetriminoProperties:
+      color: {r: 0.10849059, g: 0.3138534, b: 1, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: 0, y: -0.375}
+      rotations:
+      - name: 0G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: -1
+        offsetM2Y: 0
+        offsetM3X: -1
+        offsetM3Y: 1
+      - name: R90G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: 0
+        offsetM2Y: -1
+        offsetM3X: 1
+        offsetM3Y: 1
+      - name: R180G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: 1
+        offsetM2Y: -1
+        offsetM3X: -1
+        offsetM3Y: 0
+      - name: L90G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: -1
+        offsetM2Y: -1
+        offsetM3X: 0
+        offsetM3Y: 1
+  - name: L
+    tetrimino: 5
+    tetriminoProperties:
+      color: {r: 1, g: 0.51029897, b: 0.15566039, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: 0, y: -0.25}
+      rotations:
+      - name: 0G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: 1
+        offsetM2Y: 1
+        offsetM3X: -1
+        offsetM3Y: 0
+      - name: R90G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: 1
+        offsetM2Y: -1
+        offsetM3X: 0
+        offsetM3Y: 1
+      - name: R180G
+        offsetM1X: -1
+        offsetM1Y: 0
+        offsetM2X: -1
+        offsetM2Y: -1
+        offsetM3X: 1
+        offsetM3Y: 0
+      - name: L90G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: -1
+        offsetM2Y: 1
+        offsetM3X: 0
+        offsetM3Y: -1
+  - name: T
+    tetrimino: 6
+    tetriminoProperties:
+      color: {r: 0.9811321, g: 0.16197933, b: 0.60031146, a: 1}
+      prefab: {fileID: 4669093897178543307, guid: b30121b75fb52f641b1822780c257a24,
+        type: 3}
+      previewCenterOffset: {x: 0, y: -0.375}
+      rotations:
+      - name: 0G
+        offsetM1X: 0
+        offsetM1Y: 1
+        offsetM2X: 1
+        offsetM2Y: 0
+        offsetM3X: -1
+        offsetM3Y: 0
+      - name: R90G
+        offsetM1X: 1
+        offsetM1Y: 0
+        offsetM2X: 0
+        offsetM2Y: -1
+        offsetM3X: 0
+        offsetM3Y: 1
+      - name: R180G
+        offsetM1X: 0
+        offsetM1Y: -1
+        offsetM2X: -1
+        offsetM2Y: 0
+        offsetM3X: 1
+        offsetM3Y: 0
+      - name: L90G
+        offsetM1X: -1
+        offsetM1Y: 0
+        offsetM2X: 0
+        offsetM2Y: 1
+        offsetM3X: 0
+        offsetM3Y: -1
+  commonOffTable:
+    OToR:
+      offset1: {x: 0, y: 0}
+      offset2: {x: -1, y: 0}
+      offset3: {x: -1, y: 1}
+      offset4: {x: 0, y: -2}
+      offset5: {x: -1, y: -2}
+    RToT:
+      offset1: {x: 0, y: 0}
+      offset2: {x: 1, y: 0}
+      offset3: {x: 1, y: -1}
+      offset4: {x: 0, y: 2}
+      offset5: {x: 1, y: 2}
+    TToL:
+      offset1: {x: 0, y: 0}
+      offset2: {x: 1, y: 0}
+      offset3: {x: 1, y: 1}
+      offset4: {x: 0, y: -2}
+      offset5: {x: 1, y: -2}
+    LToO:
+      offset1: {x: 0, y: 0}
+      offset2: {x: -1, y: 0}
+      offset3: {x: -1, y: -1}
+      offset4: {x: 0, y: 2}
+      offset5: {x: -1, y: 2}
+  iOffTable:
+    OToR:
+      offset1: {x: 0, y: 0}
+      offset2: {x: -2, y: 0}
+      offset3: {x: 1, y: 0}
+      offset4: {x: -2, y: -1}
+      offset5: {x: 1, y: 2}
+    RToT:
+      offset1: {x: 0, y: 0}
+      offset2: {x: -1, y: 0}
+      offset3: {x: 2, y: 0}
+      offset4: {x: -1, y: 2}
+      offset5: {x: 2, y: -1}
+    TToL:
+      offset1: {x: 0, y: 0}
+      offset2: {x: 2, y: 0}
+      offset3: {x: -1, y: 0}
+      offset4: {x: 2, y: 1}
+      offset5: {x: -1, y: -2}
+    LToO:
+      offset1: {x: 0, y: 0}
+      offset2: {x: 2, y: 0}
+      offset3: {x: -2, y: 0}
+      offset4: {x: 1, y: -2}
+      offset5: {x: -2, y: 1}
